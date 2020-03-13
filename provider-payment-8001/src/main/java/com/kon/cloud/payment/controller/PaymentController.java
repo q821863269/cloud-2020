@@ -5,7 +5,6 @@ import com.kon.cloud.common.vo.R;
 import com.kon.cloud.common.vo.Result;
 import com.kon.cloud.payment.service.IPaymentService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
