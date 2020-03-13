@@ -1,4 +1,4 @@
-package com.kon.cloud.common;
+package com.kon.cloud.common.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,9 +18,5 @@ public class Result<T> {
     private String message;
 
     private T data;
-
-    public Result(Integer code, String message) {
-        this(code, message, null);
-    }
 
 }

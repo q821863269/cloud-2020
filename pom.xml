@@ -9,6 +9,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>provider-payment-8001</module>
+        <module>consumer-order-80</module>
+        <module>cloud-common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -20,6 +22,7 @@
 
         <mysql-driver.version>8.0.19</mysql-driver.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
+        <hutool.version>5.2.1</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -64,7 +67,27 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-driver.version}</version>
             </dependency>
+
+            <!-- hutool -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                    <addResources>true</addResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
