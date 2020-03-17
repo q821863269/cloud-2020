@@ -9,6 +9,8 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 
 /**
+ * 订单控制器
+ *
  * @author Lin Kun
  * @create 2020/3/13
  */
@@ -17,7 +19,7 @@ import javax.annotation.Resource;
 @RequestMapping("/consumer")
 public class OrderController {
 
-    public static final String PAYMENT_URL = "http://127.0.0.1:8001";
+    private static final String PAYMENT_URL = "http://provider-payment";
 
     @Resource
     private RestTemplate restTemplate;

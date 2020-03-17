@@ -3,6 +3,7 @@
 - cloud-common---公共模块
 - consumer-order-80---订单消费者服务
 - provider-payment-8001---支付提供者服务
+- eureka-server-7001---Eureka服务注册中心 （属于CAP中的AP）
 
 ## 首先要配置一下host
 - host文件地址：C:\Windows\System32\drivers\etc
@@ -10,4 +11,4 @@
 - 添加：127.0.0.1   eureka7001.com
 - 添加：127.0.0.1   eureka7002.com
 
-## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=21)
+## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=28)
