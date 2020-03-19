@@ -7,8 +7,9 @@
 
 ## 首先要配置一下host
 - host文件地址：C:\Windows\System32\drivers\etc
-- 添加：你的mysql服务器地址   mysql.server
+- 添加：你的mysql服务器地址       mysql.server
+- 添加：你的zookeeper服务器地址   zookeeper.server
 - 添加：127.0.0.1   eureka7001.com
 - 添加：127.0.0.1   eureka7002.com
 
-## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=28)
+## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=31)
