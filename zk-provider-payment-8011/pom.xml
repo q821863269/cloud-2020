@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>provider-payment-8011</artifactId>
+    <artifactId>zk-provider-payment-8011</artifactId>
 
     <dependencies>
         <dependency>
