@@ -16,6 +16,8 @@
         <module>eureka-server-7002</module>
         <module>zk-provider-payment-8011</module>
         <module>zk-consumer-order-80</module>
+        <module>consul-provider-payment-8021</module>
+        <module>consul-consumer-order-80</module>
     </modules>
     <packaging>pom</packaging>
 

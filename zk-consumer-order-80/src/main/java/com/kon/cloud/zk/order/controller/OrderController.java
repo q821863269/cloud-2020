@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 @RequestMapping("/consumer")
 public class OrderController {
 
-    private static final String PAYMENT_URL = "http://provider-payment";
+    private static final String PAYMENT_URL = "http://zk-provider-payment";
 
     @Resource
     private RestTemplate restTemplate;
