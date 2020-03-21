@@ -13,4 +13,4 @@
 - 添加：127.0.0.1   eureka7001.com
 - 添加：127.0.0.1   eureka7002.com
 
-## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=31)
+## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=39)
