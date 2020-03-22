@@ -4,11 +4,13 @@ import com.kon.cloud.common.entity.Payment;
 import com.kon.cloud.common.vo.R;
 import com.kon.cloud.common.vo.Result;
 import com.kon.cloud.payment.service.IPaymentService;
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author Lin Kun
@@ -39,6 +41,18 @@ public class PaymentController {
     public Result getPaymentById(@PathVariable("id") Long id) {
         Payment payment = paymentService.getById(id);
         return R.ok(serverPort + "查询成功", payment);
+    }
+
+    @GetMapping("/lb")
+    public Result getPaymentLB() {
+        return R.ok(null, serverPort);
+    }
+
+    @SneakyThrows
+    @GetMapping("/feign/timeout")
+    public Result feignTimeout(@RequestParam("second") int second) {
+        TimeUnit.SECONDS.sleep(second);
+        return R.ok(null, serverPort);
     }
 
 }
