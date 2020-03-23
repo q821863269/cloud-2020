@@ -16,4 +16,4 @@
 
 ## 创建对应的mysql数据库，执行aaa文件夹中的sql脚本 
 
-## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=58)
+## 视频地址：[Spring-Cloud](https://www.bilibili.com/video/av93813318?p=74)
