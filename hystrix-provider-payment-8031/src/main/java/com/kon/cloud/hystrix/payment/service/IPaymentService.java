@@ -14,4 +14,6 @@ public interface IPaymentService extends IService<Payment> {
 
     Result paymentInfoTimeout(int second);
 
+    public Result paymentCircuitBreaker(int id);
+
 }

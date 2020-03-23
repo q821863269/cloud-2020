@@ -33,4 +33,9 @@ public class PaymentController {
         return paymentService.paymentInfoTimeout(second);
     }
 
+    @GetMapping("/circuit/{id}")
+    public Result paymentCircuit(@PathVariable("id") int id) {
+        return paymentService.paymentCircuitBreaker(id);
+    }
+
 }
