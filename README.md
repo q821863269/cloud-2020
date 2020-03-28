@@ -12,6 +12,7 @@
 - 添加：你的zookeeper服务器地址   zookeeper.server
 - 添加：你的consul服务器地址      consul.server
 - 添加：你的rabbitmq服务器地址    rabbitmq.server
+- 添加：你的zipkin服务器地址      zipkin.server
 - 添加：127.0.0.1   eureka7001.com
 - 添加：127.0.0.1   eureka7002.com
 - 添加：127.0.0.1   config3344.com
