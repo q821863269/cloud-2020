@@ -23,6 +23,9 @@
         <module>hystrix-consumer-order-80</module>
         <module>hystrix-consumer-dashboard-9001</module>
         <module>gateway-9527</module>
+        <module>cloud-config-3344</module>
+        <module>cloud-config-client-3355</module>
+        <module>cloud-config-client-3366</module>
     </modules>
     <packaging>pom</packaging>
 
