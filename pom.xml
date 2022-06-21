@@ -49,7 +49,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <mysql-driver.version>8.0.19</mysql-driver.version>
+        <mysql-driver.version>8.0.28</mysql-driver.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
         <hutool.version>5.2.1</hutool.version>
     </properties>
